@@ -127,6 +127,6 @@ class AppConfig {
             'AppConfigSettings actualy do not support JSON with more than 10 levels!';
         throw Exception(message);
     }
-    return value;
+    return value.toString();
   }
 }
